@@ -1,0 +1,6 @@
+# ignore Django settings file
+blog/settings.py
+
+# ignore temp files
+*~
+\#*\#

@@ -1,0 +1,12 @@
+Source code for blog.darrenstruthers.net
+By Darren Struthers <dstruthers@gmail.com>
+
+INSTALLATION
+This software is developed on the Django framework <http://djangoproject.net/>
+To install, first install Django, and then copy blog/settings.example.py to
+blog/settings.py and edit appropriately, as per Django documentation.
+
+LICENSE
+This software is released under the terms of the X11 license. See LICENSE for
+more information.
+
