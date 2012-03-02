@@ -1,6 +1,9 @@
 # ignore Django settings file
-blog/settings.py
+settings.py
 
 # ignore temp files
 *~
 \#*\#
+
+# ignore Python bytecode
+*.pyc
