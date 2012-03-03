@@ -14,6 +14,9 @@ class Article(models.Model):
     edited = models.DateTimeField(auto_now=True)
     published = models.DateTimeField()
 
+    def __unicode__(self):
+        return '%s - %s' % (self.title, str(self.created))
+
 class Comment(models.Model):
     """
     Represents a comment on an Article
@@ -24,3 +27,6 @@ class Comment(models.Model):
     author = models.ForeignKey(User)
     created = models.DateTimeField(auto_now_add=True)
     edited = models.DateTimeField(auto_now=True)
+
+    def __unicode__(self):
+        return '%s / %s' % (self.article, str(self.created))
